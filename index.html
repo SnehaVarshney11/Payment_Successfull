@@ -5,66 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Payment Successfull</title>
+    <title>Contact Us</title>
 </head>
 <body>
-    <div class="flex justify-center mt-10">
-        <div class="border rounded-lg">
-            <div class="h-80 pt-14 bg-green_card rounded-t-lg text-center">
-                <h4 class="font-semibold text-sm text-white">Payment Status</h4>
-                <h2 class="font-bold text-xl text-white mt-3">Payment Successfully!</h2>
-                <svg class="ml-32 mt-3" width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <g clip-path="url(#clip0_2141_12141)">
-                     <path d="M78 38.9995L69.17 29.196L70.5526 16.0714L57.6408 13.3381L51.0545 1.89648L39.0001 7.28399L37.373 38.9995L39.0001 70.715L51.0547 76.1025L57.6408 64.661L70.5526 61.9275L69.17 48.803L78 38.9995Z" fill="#E1EBE6"/>
-                     <path d="M26.9453 1.89648L20.3592 13.3381L7.44743 16.0716L8.82996 29.196L0 38.9995L8.82996 48.803L7.44743 61.9275L20.3592 64.661L26.9455 76.1025L39.0001 70.715V7.28399L26.9453 1.89648Z" fill="white"/>
-                     <path d="M55.3498 30.4592L51.936 27.4121L39.0001 41.9049L37.373 45.5066L39.0001 48.7767L55.3498 30.4592Z" fill="#2A9C0E"/>
-                     <path d="M25.4054 35.5527L22.1699 38.7884L35.7733 52.3919L39.0001 48.7768V41.905L35.5845 45.7317L25.4054 35.5527Z" fill="#3DC51B"/>
-                     </g>
-                     <defs>
-                     <clipPath id="clip0_2141_12141">
-                     <rect width="78" height="78" fill="white"/>
-                     </clipPath>
-                     </defs>
-                 </svg>
-                 <h4 class="font-semibold text-sm text-white mt-3">Amount</h4>
-                 <h2 class="font-bold text-xl text-white mt-3">Rp. 4,413,800</h2>
-             </div>
-             <div class="m-2">
-              <div class="flex">
-                <div class="grid grid-cols-2 divide-x">
-                  <div class="flex flex-col">
-                    <p class="text-grey text-sm">Date of Payment</p>
-                    <p class="text-sm">31-02-2023</p>
-                  </div>
-                  <div class="pl-2">
-                    <p class="text-grey text-sm">Order ID</p>
-                    <p class="text-sm">695830335225804</p>
-                  </div>
-              </div>
-                <svg class="m-2" width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.66671 0.666016H1.66671C0.933374 0.666016 0.333374 1.26602 0.333374 1.99935V11.3327H1.66671V1.99935H9.66671V0.666016ZM11.6667 3.33268H4.33337C3.60004 3.33268 3.00004 3.93268 3.00004 4.66602V13.9993C3.00004 14.7327 3.60004 15.3327 4.33337 15.3327H11.6667C12.4 15.3327 13 14.7327 13 13.9993V4.66602C13 3.93268 12.4 3.33268 11.6667 3.33268ZM11.6667 13.9993H4.33337V4.66602H11.6667V13.9993Z" fill="#E5397B"/>
-                </svg>
-              </div>
-              <div class="flex flex-col mt-2">
-                <p class="text-grey text-sm">Quote ID</p>
-                <div class="flex flex-row">
-                  <p class="text-sm">69583033522580454522</p>
-                  <svg class="ml-[6.5rem]" width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.66671 0.666016H1.66671C0.933374 0.666016 0.333374 1.26602 0.333374 1.99935V11.3327H1.66671V1.99935H9.66671V0.666016ZM11.6667 3.33268H4.33337C3.60004 3.33268 3.00004 3.93268 3.00004 4.66602V13.9993C3.00004 14.7327 3.60004 15.3327 4.33337 15.3327H11.6667C12.4 15.3327 13 14.7327 13 13.9993V4.66602C13 3.93268 12.4 3.33268 11.6667 3.33268ZM11.6667 13.9993H4.33337V4.66602H11.6667V13.9993Z" fill="#E5397B"/>
-                  </svg>
-                </div> 
-              </div>
-              
-              <div class="flex justify-center">
-                <button class="w-[19rem] h-10 mt-5 text-sm border bg-vlight_grey text-primary font-bold border-none rounded cursor-pointer">Download Receipt</button>
-              </div>
+    <div>
+      <h1 class="m-4 font-semibold text-lg">Contact Us</h1>
+
+      <div class="border-t border-vlight_grey">
+        <p class="m-4 text-medium_gray text-xs">Contact us via message, phone, email, or whatsapp and we will respond to you as soon as possible</p>
+
+        <div class="m-4 bg-vlight_grey rounded-lg">
+          <form class="p-4 space-y-5" id="form">
+            <!------------- Full Name  ----------------->
+            <input class="w-full border border-input_border rounded-lg outline-none p-2 placeholder-slate-950" type="text" id="name" name="name" placeholder="Full Name">
+            <!------------- Phone ----------------->
+            <input class="w-full border border-input_border rounded-lg outline-none p-2 placeholder-slate-950" type="tel" id="phone" name="phone" placeholder="Phone">
+            <!------------- Email ----------------->
+            <input class="w-full border border-input_border rounded-lg outline-none p-2 placeholder-slate-950" type="email" id="email" name="email" placeholder="Email">
+            <!------------- Subject  ----------------->
+            <input class="w-full border border-input_border rounded-lg outline-none p-2 placeholder-slate-950" type="text" id="subject" name="subject" placeholder="Subject">
+            <!------------- Message  ----------------->
+            <input class="h-40 w-full border border-input_border rounded-lg outline-none p-2 placeholder-slate-950" type="text" id="message" name="message" placeholder="Message">
+            <!------------- Button  ----------------->
+            <div class="flex justify-center items-center">
+              <button class="bg-primary p-3 text-white font-semibold w-52 rounded-md" type="submit">Send Message</button>
             </div>
-        </div>  
+          </form>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="m-4 bg-vlight_grey rounded-lg flex flex-col p-4 text-center space-y-3 lg:pt-10">
+            <div class="flex justify-center items-center">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1932_7995)">
+                <path d="M33.8182 5.68406C25.9713 -1.89469 13.531 -1.89469 5.6841 5.68406C-2.08495 13.728 -1.86214 26.5468 6.18178 34.3159C14.0287 41.8946 26.469 41.8946 34.3159 34.3159C42.085 26.272 41.8621 13.4531 33.8182 5.68406ZM33.3642 33.3642L33.3575 33.3574C25.9736 40.7346 14.0075 40.7291 6.63042 33.3453C-0.746712 25.9614 -0.741253 13.9954 6.6426 6.61827C14.0265 -0.758855 25.9925 -0.753398 33.3697 6.63037C36.9131 10.1771 38.9022 14.9864 38.8989 20C38.8993 25.0124 36.9084 29.8197 33.3642 33.3642Z" fill="#121212"/>
+                <path d="M31.373 25.7661L27.5798 21.9863C26.7189 21.1233 25.3214 21.1217 24.4585 21.9826C24.4572 21.9838 24.456 21.985 24.4547 21.9863L22.2814 24.1596C22.117 24.3245 21.8578 24.3472 21.6672 24.2136C20.4777 23.3823 19.3642 22.4472 18.3397 21.4193C17.4222 20.5038 16.5781 19.5177 15.8153 18.4697C15.6771 18.2815 15.6971 18.0204 15.8625 17.8555L18.0899 15.6282C18.9498 14.7665 18.9498 13.3714 18.0899 12.5098L14.2967 8.71659C13.4226 7.88093 12.0457 7.88093 11.1716 8.71659L9.97021 9.91799C8.15581 11.712 7.50809 14.3758 8.29629 16.8026C8.88445 18.5781 9.71584 20.2635 10.7666 21.8108C11.7126 23.2293 12.7979 24.5497 14.0064 25.7526C15.3203 27.0758 16.7757 28.2505 18.3464 29.2556C20.0731 30.3823 21.969 31.2254 23.9621 31.7529C24.4744 31.8792 25.0003 31.9427 25.5279 31.9419C27.337 31.9308 29.0677 31.2026 30.3404 29.917L31.3731 28.8843C32.233 28.0228 32.233 26.6277 31.373 25.7661ZM30.4172 27.9638C30.4164 27.9647 30.4155 27.9656 30.4145 27.9665L30.4213 27.9462L29.3886 28.9789C28.0617 30.3225 26.1293 30.8753 24.2926 30.4368C22.4421 29.9415 20.683 29.1531 19.0819 28.1015C17.5944 27.1508 16.2159 26.0395 14.9714 24.7874C13.8263 23.6507 12.7976 22.4026 11.9003 21.0616C10.9189 19.6187 10.1421 18.0469 9.59197 16.3909C8.96133 14.4454 9.48393 12.3107 10.9419 10.8765L12.1433 9.67508C12.4773 9.33955 13.0201 9.33837 13.3556 9.67239C13.3564 9.67326 13.3574 9.67413 13.3582 9.67508L17.1515 13.4683C17.487 13.8024 17.4882 14.3451 17.1542 14.6806C17.1533 14.6814 17.1524 14.6823 17.1515 14.6833L14.9241 16.9106C14.285 17.5428 14.2047 18.5473 14.7352 19.273C15.5408 20.3786 16.4323 21.419 17.4013 22.3846C18.4817 23.4697 19.6562 24.4567 20.9111 25.3342C21.6361 25.84 22.6191 25.7547 23.2464 25.1317L25.3995 22.9448C25.7335 22.6093 26.2763 22.6081 26.6117 22.9422C26.6126 22.943 26.6135 22.9439 26.6144 22.9448L30.4145 26.7516C30.7501 27.0856 30.7513 27.6283 30.4172 27.9638Z" fill="#121212"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1932_7995">
+                <rect width="40" height="40" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="text-medium_gray text-sm"><a href="tel:+622150100946">+62 21 50100946</a></p>
+          </div>
+
+          <div class="m-4 bg-vlight_grey rounded-lg flex flex-col p-4 text-center space-y-3 lg:pt-10">
+            <div class="flex justify-center items-center">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1932_8004)">
+                <path d="M20 0C8.95443 0 0 8.95443 0 20C0 31.0456 8.95443 40 20 40C31.0456 40 40 31.0456 40 20C39.9876 8.95964 31.0404 0.0123698 20 0ZM20 38.6667C9.69076 38.6667 1.33333 30.3092 1.33333 20C1.33333 9.69076 9.69076 1.33333 20 1.33333C30.3092 1.33333 38.6667 9.69076 38.6667 20C38.6549 30.3044 30.3044 38.6549 20 38.6667Z" fill="#121212"/>
+                <path d="M29.3333 12H10.6667C10.2985 12 10 12.2985 10 12.6667V27.3333C10 27.7015 10.2985 28 10.6667 28H29.3333C29.7015 28 30 27.7015 30 27.3333V12.6667C30 12.2985 29.7015 12 29.3333 12ZM27.5332 13.3333L20 19.7887L12.4668 13.3333H27.5332ZM11.3333 26.6667V14.1159L19.5661 21.1725C19.8154 21.3861 20.1833 21.3861 20.4326 21.1725L28.6667 14.1159V26.6667H11.3333Z" fill="#121212"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1932_8004">
+                <rect width="40" height="40" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="text-medium_gray text-sm"><a href="mailto:someone@example.com">support@mytokoto.com</a></p>
+          </div>
+
+          <div class="m-4 bg-vlight_grey rounded-lg flex flex-col p-4 text-center space-y-3 lg:pt-10">
+            <div class="flex justify-center items-center">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_1932_8009" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                <path d="M0 3.8147e-06H40V40H0V3.8147e-06Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_1932_8009)">
+                <path d="M25.9375 3.61617C31.1963 5.97516 34.8726 11.3721 34.8726 17.6529C34.8726 19.9983 34.3599 22.22 33.4439 24.2066C32.7015 25.8168 31.2807 27.8975 29.4531 30" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M27.7344 31.875C24.2356 35.591 20 39.4141 20 39.4141C20 39.4141 8.94189 29.3807 6.55611 24.2066C5.6401 22.2198 5.12744 19.9982 5.12744 17.6529C5.12744 9.2 11.7861 2.34789 20 2.34789C20.6082 2.34789 21.2078 2.38539 21.7969 2.45844" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15.3125 8.03125C16.6127 7.36922 18.0645 6.97398 19.5998 6.91523" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M28.0372 10.7119C29.6183 12.6105 30.5728 15.0765 30.5728 17.7712C30.5728 23.7723 25.8394 28.6367 20.0001 28.6367C14.1607 28.6367 9.42725 23.7723 9.42725 17.7712C9.42725 14.5062 10.8286 11.5777 13.0469 9.58609" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22.7567 9.21875H25.0581" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22.7567 13.7773H25.0581" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22.7567 18.332H25.0581" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22.7567 22.8906H25.0581" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12.0001 22.1119V14.0004H19.7907V26.1172" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25.942 4.90234H21.8723V0.584922H25.942V4.90234Z" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19.9553 28.6367V4.90313H27.859V24.7313" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.7968 13.4141V16.418" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.1985 10.9106V16.418" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.7086 19.5016V20.7031" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.7086 23.732V24.9336" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.2867 19.5016V20.7031" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.2867 23.732V24.9336" stroke="#121212" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+            </div>  
+            <p class="text-medium_gray text-sm"><a href="https://www.google.com/maps/search/?api=1&query=AXA%20TOWER%2029th%20Floor,Suite%20%2307%20Jl.%20Prof.%20DR.%20Satrio%20Kav.%2018,%20Kuningan%20Jakarta%20Selatan,%20DKI%20Jakarta%2012940,%20Indonesia" target="_blank"> AXA TOWER 29th Floor,Suite #07 Jl. Prof. DR. Satrio Kav. 18, Kuningan Jakarta Selatan, DKI Jakarta 12940, Indonesia. </a>
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
     </div>
-    
-    <div class="flex justify-center mt-20 m-3 space-x-2">
-      <button class="w-40 h-10 mt-5 text-sm border bg-vlight_grey text-black font-bold border-none rounded cursor-pointer">Need Help?</button>
-      <button class="w-40 h-10 mt-5 text-sm border bg-primary text-white font-bold border-none rounded cursor-pointer">Continue</button>
-    </div>
-</body>
+
+    <script>
+      // Get the form element
+      const form = document.getElementById('form');
+
+      // Add event listener to the form's submit event
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+      
+        // Get the values of the form fields
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const email = document.getElementById('email').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+      
+        // Validate the form fields
+        if (name.trim() === '') {
+          alert('Please enter your full name');
+          return;
+        }
+      
+        if (phone.trim() === '') {
+          alert('Please enter your phone number');
+          return;
+        }
+      
+        if(isNaN(phone)) {
+          alert('Enter only numeric value');
+          return;
+        }
+
+        if(phone.length<10 || phone.length>10) {
+          alert('Mobile number must be 10 digit');
+          return;
+        } 
+
+        if((phone.charAt(0)!= 9) && (phone.charAt(0)!= 8) && (phone.charAt(0)!= 7)) {
+          alert('Mobile number must start with 9, 8 and 7');
+          return;
+        }
+
+        if (email.trim() === '') {
+          alert('Please enter your email');
+          return;
+        }
+      
+        if (subject.trim() === '') {
+          alert('Please enter the subject');
+          return;
+        }
+      
+        if (message.trim() === '') {
+          alert('Please enter your message');
+          return;
+        }
+
+        // If all validations pass, you can proceed with form submission or further processing
+
+        // Clear the form fields after submission (optional)
+        form.reset();
+      });
+    </script>
+</body> 
 </html>

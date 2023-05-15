@@ -22,6 +22,7 @@ module.exports = {
         green_card: '#3DC51B',
         grey: '#777777',  
         "vlight_grey": "#F5F5F5",
+        input_border: "#C1C3D9",
       },
     },
   },
