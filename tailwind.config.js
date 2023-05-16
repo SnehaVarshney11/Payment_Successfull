@@ -23,6 +23,8 @@ module.exports = {
         grey: '#777777',  
         "vlight_grey": "#F5F5F5",
         input_border: "#C1C3D9",
+        hr: "#C2C4D9",
+        bt_grey: "#F4F4F4",
       },
     },
   },
