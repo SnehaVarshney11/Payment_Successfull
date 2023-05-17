@@ -12,7 +12,7 @@ module.exports = {
         dark_button:" #342F38",
         black: "#121212",
         medium_gray: "#585858",
-        light_gray: "#f1f1f1",
+        light_gray: "#f2f2f2",
         error: "#e73318",
         success: "#3dc518",
         inprogress: "#f3880A",
@@ -26,6 +26,9 @@ module.exports = {
         hr: "#C2C4D9",
         bt_grey: "#F4F4F4",
       },
+      screens: {
+        'small_': '510px',
+      }
     },
   },
   plugins: [],
